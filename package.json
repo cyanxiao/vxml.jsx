@@ -1,10 +1,11 @@
 {
-  "name": "babel-jsx",
+  "name": "vxml-jsx",
   "version": "0.0.1",
   "main": "dist/index.js",
   "author": "Chell",
   "license": "MIT",
   "type": "module",
+  "description": "Experimental lib to integrate VoiceXML with JSX",
   "scripts": {
     "build": "rollup -c",
     "test": "jest"
