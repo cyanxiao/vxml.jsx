@@ -1,8 +1,12 @@
 /** @jsx JSXXML */
 import { Block, JSXXML, render } from "../src";
 
-const block = render(<Block>Hello Block</Block>);
+const options = {
+  createOptions: { headless: true },
+};
+
+const block = render(<Block>Hello Block</Block>, options);
 
 test("<Block />", () => {
-  expect(block).toBe(`<?xml version="1.0"?><block>Hello Block</block>`);
+  expect(block).toBe(`<block>Hello Block</block>`);
 });
