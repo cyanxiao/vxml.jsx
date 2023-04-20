@@ -5,6 +5,11 @@
   "author": "Chell",
   "license": "MIT",
   "type": "module",
+  "types": "dist/",
+  "files": [
+    "dist",
+    "src"
+  ],
   "description": "Experimental lib to integrate VoiceXML with JSX",
   "scripts": {
     "build": "rollup -c",
