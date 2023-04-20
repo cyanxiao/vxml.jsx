@@ -52,3 +52,19 @@ import { Block, JSXXML } from "vxml-jsx";
 const Hello = <Block>Hello World!</Block>;
 export default Hello;
 ```
+
+> **Note**
+> vxml.jsx is still in a very early stage.
+
+### VXML Components
+
+Component names should be exactly the same as the vanilla tags, except that the first letter should be capitalized. Usage is listed as follows:
+
+- [Block](tests/Block.test.tsx)
+
+### Composition Components
+
+Composition components are based on VXML components to provide a common interaction flow in VoiceXML.
+
+> **Note**
+> In development.
