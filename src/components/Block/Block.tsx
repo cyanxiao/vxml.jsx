@@ -1,7 +1,7 @@
 /** @jsx JSXXML */
 
-import { JSXXML } from "jsx-xml";
-import type { JSXNode } from "jsx-xml";
+import { JSXXML } from "../../core";
+import type { JSXNode } from "../../core";
 import type { name, expr, cond } from "../../common";
 
 interface BlockProps {
